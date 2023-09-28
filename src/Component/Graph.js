@@ -16,7 +16,7 @@ const Graph = ({ coordinateData }) => {
           ),
           datasets: [
             {
-              label: "Graph according to Tue, Jan 20 1970 stats",
+              label: "Tue, Jan 20 1970" ,
               data: coordinateData.map((item) => ({
                 x: moment(item[0]),
                 y: item[1],
